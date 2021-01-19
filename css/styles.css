@@ -99,6 +99,8 @@ button {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link li {
@@ -129,6 +131,8 @@ button {
 
   display: flex;
   align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
@@ -221,6 +225,8 @@ footer {
 
   align-items: center;
   justify-content: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-icon-link:not(:last-child) {
@@ -459,6 +465,9 @@ footer {
   align-items: center;
   justify-content: center;
   color: var(--icon-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-icon {
@@ -473,6 +482,7 @@ footer {
   background-color: var(--accent-color);
 }
 
+/* Блок Клиенты */
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -488,6 +498,9 @@ footer {
 
   align-items: center;
   justify-content: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon-box {
@@ -523,6 +536,10 @@ footer {
   border-radius: 4px;
 
   cursor: pointer;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-nav:hover,
@@ -536,6 +553,8 @@ footer {
 /* Блок Портфолио */
 .portfolio-card-link {
   text-decoration: none;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-title {
